@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.miapp.club.threshold.PDF_View"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:gravity="top"
+            android:paddingTop="25dp"
+            android:paddingBottom="10dp"
+            app:titleMarginTop="15dp"
+            android:background="@color/colorPrimary"/>
+
+    </android.support.design.widget.AppBarLayout>
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="250dp"
+        android:src="@drawable/thc_logo_transparent_png"
+        android:fitsSystemWindows="true"
+        android:scaleType="centerCrop"
+        tools:ignore="ContentDescription" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="About"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:textSize="15sp"
+                android:layout_marginStart="16dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/About_Intro"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="8dp"
+                android:textColor="@color/primary_text"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Objectives"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:textSize="15sp"
+                android:layout_marginStart="16dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:text="@string/About_Obj"
+                android:layout_marginStart="25dp"
+                android:textColor="@color/primary_text"/>
+
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+</LinearLayout>

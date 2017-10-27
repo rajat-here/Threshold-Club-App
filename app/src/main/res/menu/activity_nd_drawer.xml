@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/nav_dashboard"
+        android:icon="@drawable/dashboard"
+        android:title="Dashboard" />
+
+    <item
+        android:id="@+id/nav_club"
+        android:icon="@drawable/clubfeeds"
+        android:title="Club Feeds" />
+
+
+    <item android:title="Timeline">
+        <menu>
+            <item
+                android:id="@+id/nav_celesta"
+                android:icon="@drawable/celesta"
+                android:title="Celesta" />
+            <item
+                android:id="@+id/nav_anwesha"
+                android:icon="@drawable/anwesha"
+                android:title="Anwesha" />
+        </menu>
+    </item>
+
+    <item android:title="Contact Us">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/about"
+                android:title="About" />
+
+        </menu>
+    </item>
+</menu>

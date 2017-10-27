@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Threshold Club</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="About_Intro">
+
+The Threshold Club is the official club of the Department of Chemical and Biochemical Engineering of IIT Patna. It was created on 14th August, 2014.\n\n
+The Club aims to create a sense of ingenuity among young minds about the \'Cloud Nine\' position that chemistry has brought forth in our lives. It also promotes sharing of facts and figures about the awesomeness of chemistry and its wonderful application in the field of engineering and research @IITP and across. Its activities promotes high academic achievements, scholarly research, dissemination of knowledge and service to the institute. \n\n
+
+</string>
+    <string name="About_Obj">To promote and enrich Chemical Engineering abilities in the community of ThC.\n
+To provide a working environment for Chemical Engineering students of IIT Patna.\n
+To conduct and manage events involving Chemical Engineering disciplines and their domains.\n
+To foster the Chemical Engineering culture to the upcoming generation of IIT Patna.\n
+To implement Chemical Engineering abilities and concepts on projects of Industries and companies.\n
+</string>
+</resources>

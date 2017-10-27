@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="IconLocation">
+        <ignore path="src/main/res/drawable/about.png" />
+        <ignore path="src/main/res/drawable/akhil.png" />
+        <ignore path="src/main/res/drawable/aman.png" />
+        <ignore path="src/main/res/drawable/anwesha.png" />
+        <ignore path="src/main/res/drawable/app_icon.png" />
+        <ignore path="src/main/res/drawable/ashish.png" />
+        <ignore path="src/main/res/drawable/aswin.png" />
+        <ignore path="src/main/res/drawable/ayush.png" />
+        <ignore path="src/main/res/drawable/celesta.png" />
+        <ignore path="src/main/res/drawable/club_feeds.png" />
+        <ignore path="src/main/res/drawable/clubfeeds.png" />
+        <ignore path="src/main/res/drawable/cover1.png" />
+        <ignore path="src/main/res/drawable/cover_main.png" />
+        <ignore path="src/main/res/drawable/dashboard.png" />
+        <ignore path="src/main/res/drawable/devansh.png" />
+        <ignore path="src/main/res/drawable/dheeraj.png" />
+        <ignore path="src/main/res/drawable/diyanshu.png" />
+        <ignore path="src/main/res/drawable/events_cover.png" />
+        <ignore path="src/main/res/drawable/guru.png" />
+        <ignore path="src/main/res/drawable/naviback.png" />
+        <ignore path="src/main/res/drawable/nishant.png" />
+        <ignore path="src/main/res/drawable/parth.png" />
+        <ignore path="src/main/res/drawable/rajat.png" />
+        <ignore path="src/main/res/drawable/sunil.png" />
+        <ignore path="src/main/res/drawable/team.png" />
+        <ignore path="src/main/res/drawable/thc_logo_transparent_png.png" />
+        <ignore path="src/main/res/drawable/threshold_logo.png" />
+        <ignore path="src/main/res/drawable/vijay.png" />
+        <ignore path="src/main/res/drawable/yash.png" />
+    </issue>
+</lint>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "682294625439",
+    "firebase_url": "https://threshold-club.firebaseio.com",
+    "project_id": "threshold-club",
+    "storage_bucket": "threshold-club.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:682294625439:android:dab509a41f999245",
+        "android_client_info": {
+          "package_name": "com.miapp.club.threshold"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "682294625439-i2mkc9b5481m26ina37qss44ul5crq7u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.miapp.club.threshold",
+            "certificate_hash": "61e524f5161008c1d15c9ac4446fc7dded7af627"
+          }
+        },
+        {
+          "client_id": "682294625439-ldhnm262mgne64hsj3cak9ceprcbok14.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiAtVSnpRBiszvsDem402B-lKcuYIIDkk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "682294625439-ldhnm262mgne64hsj3cak9ceprcbok14.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

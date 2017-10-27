@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardlist_item3"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:orientation="vertical"
+    card_view:cardBackgroundColor="@color/colorAccent"
+    card_view:cardCornerRadius="5dp"
+    card_view:cardElevation="8dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#e6e6e6"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="[12:22 PM, 9/6/2017] Tarun Bhaiya: Njack and ace subcoords, upload ur events by today midnight, i will be handing over the budget to authorities tomorrow, so deadline can't be extended further
+[12:26 PM, 9/6/2017] Tarun Bhaiya: also captions are needed for posters to be uploaded on fb what the fuck do yoyu guys want\ni am fdsjkbhdbbaf dfhjsd dsfhb dsfn\nfdgv dsf"
+            android:textColor="@color/primary_text" />
+
+        <TextView
+            android:id="@+id/sender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/message"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="16dp"
+            android:text="Rajat Gupta\nSophomore Year"
+            android:textColor="@color/primary_text" />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/sender"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="16dp"
+            android:text="04:09 PM\n26/08/2017"
+            android:textSize="12sp"
+            android:textColor="@color/secondary_text" />
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
+
+
